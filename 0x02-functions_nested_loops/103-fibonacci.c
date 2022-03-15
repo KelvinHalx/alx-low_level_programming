@@ -1,31 +1,33 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - print sum of all even fibonacci numbers under 4x10^6
+ * main - print the first 50 fibonacci numbers starting with 1 or 2
  *
- * Return: Nothing.
+ * Return: Numbers
  */
 
 int main(void)
 {
-	unsigned long x, y, z, sum;
+	int counter;
+	unsigned long first_number, second_number, result;
 
-	z = 0;
-	x = 0;
-	y = 1;
-	sum = 0;
+	first_number = 0;
+	second_number = 1;
+	result = 0;
+	counter = 0;
 
-	while (z < 4000000)
+	while (counter < 4000000)
 	{
-		z = x + y;
-		x = y;
-		y = z;
+		counter = first_number + second_number;
+		first_number = second_number;
+		second_number = counter;
 
-		if (z % 2 == 0)
-			sum += z;
+		if (counter % 2 == 0)
+			result = result + counter;
+
 	}
 
-	printf("%lu\n", sum);
+	printf("%lu\n", result);
 	return (0);
 }

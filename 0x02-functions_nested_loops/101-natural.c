@@ -1,29 +1,24 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
- * main - print sum of all multiples of 3 and 5 up to 1024
+ * main - Prints natural numbers multiplies of 3 or 5
  *
- * @void: Empty parameter list for main
- *
- * Description: prints the sum of all multiples of 3 and 5
- * up to but not including 1024
- *
- * Return: return 0
- *
- **/
+ * Return: 0 Always
+ */
 
 int main(void)
 {
-	int sum, i;
+	int counter, result;
 
-	sum = 0;
-
-	for (i = 1; i < 1024; i++)
+	for (counter = 1; counter < 1024; counter++)
 	{
-		if ((i % 3 == 0) || (i % 5 == 0))
-			sum += i;
+		if ((counter % 3) == 0 || (counter % 5) == 0)
+		{
+			result = result + counter;
+		}
 	}
-	printf("%d\n", sum);
+
+	printf("%d\n", result);
+
 	return (0);
 }

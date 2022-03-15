@@ -1,17 +1,16 @@
-#include "holberton.h"
-
+#include "main.h"
 
 /**
- * _isalpha - returns 1 if c is a letter
+ * _isalpha - Function checks is a capital letter
  *
- * @c: character to be checked if alpha
+ * @c: character to be checked
  *
- * Return: 1 if letter, 0 otherwise
- **/
+ * Return: 1 if c is letter 0 otherwise
+ */
 
 int _isalpha(int c)
 {
-	if ((c <= 90) && (c >= 65))
+	if ((c >= 65) && (c <= 90))
 		return (1);
 	else if ((c >= 97) && (c <= 122))
 		return (1);

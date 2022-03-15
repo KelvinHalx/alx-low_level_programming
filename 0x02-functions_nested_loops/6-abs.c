@@ -1,11 +1,12 @@
-#include "holberton.h"
-
+#include "main.h"
 
 /**
- * _abs - computes absolute value
- * @n: int to compute as absolute
+ * _abs - computes absolute value of an integer
+ *
+ * @n: number to check
+ *
  * Return: absolute value
- **/
+ */
 
 int _abs(int n)
 {

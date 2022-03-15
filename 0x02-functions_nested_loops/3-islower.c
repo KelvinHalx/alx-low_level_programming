@@ -1,13 +1,12 @@
-#include "holberton.h"
-
+#include "main.h"
 
 /**
- * _islower - returns 1 if char is lowercase
+ * _islower - Function checks is lowercase character
  *
- * @c: character to be checked if lower case, type int
+ * @c: character to be checked
  *
- * Return: 1 if lower case, 0 otherwise
- **/
+ * Return: 1 if c is lowercase 0 otherwise
+ */
 
 int _islower(int c)
 {
