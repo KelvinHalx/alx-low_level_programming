@@ -9,8 +9,18 @@
 
 void print_rev(char *s)
 {
-	char *s[20] = "Bed";
-	_putchar ("After the reverse of a string: %s ", strrev(*s));
-	return (0);
+  int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	i--;
+	while (i >= 0)
+	{
+		_putchar(s[i]);
+		i--;
+	}
+>>>>>>> 2596676a92f6c8c5441104f05d3f0c0e0da3ef37
 	_putchar('\n');
 }
