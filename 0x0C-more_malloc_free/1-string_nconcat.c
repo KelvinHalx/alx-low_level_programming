@@ -22,9 +22,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
   if (s2 && s2[len2])
     len2++;
   if (n < len2)
-    z = (char *)malloc(sizeof(char) * (len1 + n + 1));
+    z = malloc(sizeof(char) * (len1 + n + 1));
   else
-    z = (char *)malloc(sizeof(char) * (len1 + len2 + 1));
+    z = malloc(sizeof(char) * (len1 + len2 + 1));
   if (z == NUll)
     return (NULL);
   while (a < len1)
