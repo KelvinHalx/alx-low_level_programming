@@ -17,10 +17,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
   size_t a = 0;
   size_t b = 0;
 
-  if (s1)
-    len1 = strlen (s1);
-  if (s2)
-    len2 = strlen (str2);
+  while (s1 &&s1[len1])
+    len1++;
+  if (s2 && s2[len2])
+    len2++;
   if (n < len2)
     z = (char *)malloc(sizeof(char) * (len1 + n + 1));
   else
