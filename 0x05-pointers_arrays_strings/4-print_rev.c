@@ -10,9 +10,7 @@
 void print_rev(char *s)
 {
 	char *s[20] = "Bed";
-	_putchar ("After the reverse of a string: %s ", strrev(*s)); 
-	return 0;
+	_putchar ("After the reverse of a string: %s ", strrev(*s));
+	return (0);
 	_putchar('\n');
 }
-
-
