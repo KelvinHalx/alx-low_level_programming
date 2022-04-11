@@ -12,7 +12,7 @@ Prototype: void array_iterator(int *array, size_t size, void (*action)(int));
 where size is the size of the array
 and action is a pointer to the function you need to use
 
-2. To hell with circumstances; I create opportunities mandatory
+### 2. To hell with circumstances; I create opportunities
 
 Write a function that searches for an integer.
 
