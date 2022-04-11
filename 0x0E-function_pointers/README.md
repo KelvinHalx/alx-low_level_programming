@@ -23,7 +23,7 @@ int_index returns the index of the first element for which the cmp function does
 If no element matches, return -1
 If size <= 0, return -1
 
-3. A goal is not always meant to be reached, it often serves simply as something to aim at mandatory
+### 3. A goal is not always meant to be reached, it often serves simply as something to aim at
 
 Write a program that performs simple operations.
 
@@ -81,7 +81,7 @@ This file should contain all the function prototypes and data structures used by
 
 Compilation and examples
 
-4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker #advanced
+## 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker #advanced
 
 Write a program that prints the opcodes of its own main function.
 
