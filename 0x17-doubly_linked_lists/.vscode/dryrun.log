@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/david/Desktop/ALX/alx-low_level_programming/0x17-doubly_linked_lists'
+make.exe: Leaving directory 'c:/Users/david/Desktop/ALX/alx-low_level_programming/0x17-doubly_linked_lists'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+
